@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Optional: to give a background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    background-color: #6943FF;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'inter', sans-serif;
+}
+
+.card-header{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.input input {
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin to the input element */
+    width: 117px; 
+    height:83px; 
+    color: white;
+    background-color: #6943FF; /* Optional: to match the card background */
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    border: solid 2px gray
+}
+
+.input button {
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    background-color: white; /* Optional: to match the card background */
+    color: black; /* Optional: to match the text color */
+    border: none; /* Optional: to remove the default border */
+    font-weight: 700; /* Optional: to match the font weight */
+    cursor: pointer; /* Optional: to change the cursor to pointer */
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    color: black;
+}
+
+.convert, .volume, .mass {
+    background-color: #e0e0e0; /* Light grey background */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Arial';
+}
